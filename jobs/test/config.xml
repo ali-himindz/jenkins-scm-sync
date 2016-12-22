@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
@@ -10,7 +11,11 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <org.jenkinsci.plugins.headmastermastersconfig.HelloWorldBuilder plugin="head-master-masters-config@1.0-SNAPSHOT">
+      <name>test</name>
+    </org.jenkinsci.plugins.headmastermastersconfig.HelloWorldBuilder>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
